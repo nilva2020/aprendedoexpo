@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "AprendedoExpo",
+    "slug": "aprendedoexpo",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -13,13 +13,15 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.nilva2024org.aprendedoexpo"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.nilva2024org.aprendedoexpo"
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +33,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "4ad32cef-91c0-4c99-bea0-1f401da514fb"
+      }
+    },
+    "owner": "nilva2024-org",
+    "updates": {
+      "url": "https://u.expo.dev/4ad32cef-91c0-4c99-bea0-1f401da514fb"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
